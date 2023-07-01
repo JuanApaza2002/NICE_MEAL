@@ -120,9 +120,6 @@
   <metadata name="celularClienteLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <metadata name="clienteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="ciClienteLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
@@ -131,6 +128,9 @@
   </metadata>
   <metadata name="nombreClienteLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
+  </metadata>
+  <metadata name="clienteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
   <metadata name="BtnImageEditar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -158,7 +158,7 @@
   <data name="BtnImageEliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        6gAACuoBUMzvvgAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAAvhJREFUSEu1lMtP
+        6QAACukB/XXO0wAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAAvhJREFUSEu1lMtP
         U0EUxq8p0SgKoRqV++h90SLPXioUFm2pMZK49h/QxKXGnVETBSMmWiMSMVEWohSVxOBCFkCkJkACRkoI
         VkRKykLTuEPWmpjxu6W33sdAWMji15n5znfOmZl2yhBCdhSqmD7kLslUCCItRiPtLi3JeOl+h5CJBOpX
         o4EfmYhGMmH/FXvczkqwRsu0NuT8qyeOX7bHLYuVtpa65Yi2lqr0kAWFI0vBapKOBq6ZPWaWw34NrKeO
@@ -174,4 +174,7 @@
         0IQ8Hhu6xsNTDvblcw5AcwO9VlGhwU5CFf8fhPkLChDtFW5OrfYAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
 </root>

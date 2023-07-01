@@ -35,6 +35,13 @@
             System.Windows.Forms.Label passwordLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionarUsuario));
             this.usuarioDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.BtnImageEditar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.BtnImageEliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBoxUsuario = new System.Windows.Forms.GroupBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -48,20 +55,13 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.lblBuscar = new System.Windows.Forms.Label();
-            this.BtnImageEditar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.BtnImageEliminar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             cuentaUsuarioLabel = new System.Windows.Forms.Label();
             estadoUsuarioLabel = new System.Windows.Forms.Label();
             nombreUsuarioLabel = new System.Windows.Forms.Label();
             passwordLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.usuarioDataGridView)).BeginInit();
-            this.groupBoxUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).BeginInit();
+            this.groupBoxUsuario.SuspendLayout();
             this.SuspendLayout();
             // 
             // cuentaUsuarioLabel
@@ -127,6 +127,64 @@
             this.usuarioDataGridView.Size = new System.Drawing.Size(574, 437);
             this.usuarioDataGridView.TabIndex = 1;
             this.usuarioDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.usuarioDataGridView_CellClick);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "CuentaUsuario";
+            this.dataGridViewTextBoxColumn1.HeaderText = "CuentaUsuario";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Password";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Password";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "NombreUsuario";
+            this.dataGridViewTextBoxColumn3.HeaderText = "NombreUsuario";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "EstadoUsuario";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "EstadoUsuario";
+            this.dataGridViewCheckBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
+            this.dataGridViewCheckBoxColumn1.Width = 125;
+            // 
+            // BtnImageEditar
+            // 
+            this.BtnImageEditar.HeaderText = "";
+            this.BtnImageEditar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEditar.Image")));
+            this.BtnImageEditar.MinimumWidth = 6;
+            this.BtnImageEditar.Name = "BtnImageEditar";
+            this.BtnImageEditar.ReadOnly = true;
+            this.BtnImageEditar.Width = 125;
+            // 
+            // BtnImageEliminar
+            // 
+            this.BtnImageEliminar.HeaderText = "";
+            this.BtnImageEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEliminar.Image")));
+            this.BtnImageEliminar.MinimumWidth = 6;
+            this.BtnImageEliminar.Name = "BtnImageEliminar";
+            this.BtnImageEliminar.ReadOnly = true;
+            this.BtnImageEliminar.Width = 125;
+            // 
+            // usuarioBindingSource
+            // 
+            this.usuarioBindingSource.DataSource = typeof(NiceMeal.Models.Usuario);
             // 
             // groupBoxUsuario
             // 
@@ -291,64 +349,6 @@
             this.lblBuscar.TabIndex = 18;
             this.lblBuscar.Text = "Buscar:";
             // 
-            // BtnImageEditar
-            // 
-            this.BtnImageEditar.HeaderText = "";
-            this.BtnImageEditar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEditar.Image")));
-            this.BtnImageEditar.MinimumWidth = 6;
-            this.BtnImageEditar.Name = "BtnImageEditar";
-            this.BtnImageEditar.ReadOnly = true;
-            this.BtnImageEditar.Width = 125;
-            // 
-            // BtnImageEliminar
-            // 
-            this.BtnImageEliminar.HeaderText = "";
-            this.BtnImageEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEliminar.Image")));
-            this.BtnImageEliminar.MinimumWidth = 6;
-            this.BtnImageEliminar.Name = "BtnImageEliminar";
-            this.BtnImageEliminar.ReadOnly = true;
-            this.BtnImageEliminar.Width = 125;
-            // 
-            // usuarioBindingSource
-            // 
-            this.usuarioBindingSource.DataSource = typeof(NiceMeal.Models.Usuario);
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "CuentaUsuario";
-            this.dataGridViewTextBoxColumn1.HeaderText = "CuentaUsuario";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Password";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Password";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "NombreUsuario";
-            this.dataGridViewTextBoxColumn3.HeaderText = "NombreUsuario";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // dataGridViewCheckBoxColumn1
-            // 
-            this.dataGridViewCheckBoxColumn1.DataPropertyName = "EstadoUsuario";
-            this.dataGridViewCheckBoxColumn1.HeaderText = "EstadoUsuario";
-            this.dataGridViewCheckBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
-            this.dataGridViewCheckBoxColumn1.Width = 125;
-            // 
             // FrmGestionarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -367,9 +367,9 @@
             this.Text = "FrmGestionarUsuario";
             this.Load += new System.EventHandler(this.FrmGestionarUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.usuarioDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
             this.groupBoxUsuario.ResumeLayout(false);
             this.groupBoxUsuario.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

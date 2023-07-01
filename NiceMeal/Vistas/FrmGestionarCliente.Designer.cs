@@ -35,32 +35,68 @@
             System.Windows.Forms.Label nombreClienteLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionarCliente));
             this.groupBoxCliente = new System.Windows.Forms.GroupBox();
-            this.clienteDataGridView = new System.Windows.Forms.DataGridView();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.celularClienteTextBox = new System.Windows.Forms.TextBox();
+            this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ciClienteTextBox = new System.Windows.Forms.TextBox();
             this.idClienteTextBox = new System.Windows.Forms.TextBox();
             this.nombreClienteTextBox = new System.Windows.Forms.TextBox();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.lblBuscar = new System.Windows.Forms.Label();
-            this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.BtnImageEditar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.BtnImageEliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.clienteDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.BtnImageEditar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.BtnImageEliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.lblBuscar = new System.Windows.Forms.Label();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             celularClienteLabel = new System.Windows.Forms.Label();
             ciClienteLabel = new System.Windows.Forms.Label();
             idClienteLabel = new System.Windows.Forms.Label();
             nombreClienteLabel = new System.Windows.Forms.Label();
             this.groupBoxCliente.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.clienteDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clienteDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // celularClienteLabel
+            // 
+            celularClienteLabel.AutoSize = true;
+            celularClienteLabel.Location = new System.Drawing.Point(26, 349);
+            celularClienteLabel.Name = "celularClienteLabel";
+            celularClienteLabel.Size = new System.Drawing.Size(132, 20);
+            celularClienteLabel.TabIndex = 0;
+            celularClienteLabel.Text = "Celular Cliente:";
+            // 
+            // ciClienteLabel
+            // 
+            ciClienteLabel.AutoSize = true;
+            ciClienteLabel.Location = new System.Drawing.Point(26, 275);
+            ciClienteLabel.Name = "ciClienteLabel";
+            ciClienteLabel.Size = new System.Drawing.Size(90, 20);
+            ciClienteLabel.TabIndex = 2;
+            ciClienteLabel.Text = "Ci Cliente:";
+            // 
+            // idClienteLabel
+            // 
+            idClienteLabel.AutoSize = true;
+            idClienteLabel.Location = new System.Drawing.Point(26, 64);
+            idClienteLabel.Name = "idClienteLabel";
+            idClienteLabel.Size = new System.Drawing.Size(90, 20);
+            idClienteLabel.TabIndex = 4;
+            idClienteLabel.Text = "Id Cliente:";
+            // 
+            // nombreClienteLabel
+            // 
+            nombreClienteLabel.AutoSize = true;
+            nombreClienteLabel.Location = new System.Drawing.Point(21, 128);
+            nombreClienteLabel.Name = "nombreClienteLabel";
+            nombreClienteLabel.Size = new System.Drawing.Size(137, 20);
+            nombreClienteLabel.TabIndex = 6;
+            nombreClienteLabel.Text = "Nombre Cliente:";
             // 
             // groupBoxCliente
             // 
@@ -85,6 +121,67 @@
             this.groupBoxCliente.TabIndex = 0;
             this.groupBoxCliente.TabStop = false;
             this.groupBoxCliente.Text = "DATOS DEL CLIENTE";
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCancelar.Location = new System.Drawing.Point(164, 424);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(123, 46);
+            this.btnCancelar.TabIndex = 13;
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnGuardar.Location = new System.Drawing.Point(38, 424);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(120, 46);
+            this.btnGuardar.TabIndex = 12;
+            this.btnGuardar.Text = "GUARDAR";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // celularClienteTextBox
+            // 
+            this.celularClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "CelularCliente", true));
+            this.celularClienteTextBox.Location = new System.Drawing.Point(178, 342);
+            this.celularClienteTextBox.Name = "celularClienteTextBox";
+            this.celularClienteTextBox.Size = new System.Drawing.Size(100, 27);
+            this.celularClienteTextBox.TabIndex = 1;
+            // 
+            // clienteBindingSource
+            // 
+            this.clienteBindingSource.DataSource = typeof(NiceMeal.Models.Cliente);
+            // 
+            // ciClienteTextBox
+            // 
+            this.ciClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "CiCliente", true));
+            this.ciClienteTextBox.Location = new System.Drawing.Point(178, 268);
+            this.ciClienteTextBox.Name = "ciClienteTextBox";
+            this.ciClienteTextBox.Size = new System.Drawing.Size(100, 27);
+            this.ciClienteTextBox.TabIndex = 3;
+            // 
+            // idClienteTextBox
+            // 
+            this.idClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "IdCliente", true));
+            this.idClienteTextBox.Location = new System.Drawing.Point(178, 64);
+            this.idClienteTextBox.Name = "idClienteTextBox";
+            this.idClienteTextBox.Size = new System.Drawing.Size(100, 27);
+            this.idClienteTextBox.TabIndex = 5;
+            // 
+            // nombreClienteTextBox
+            // 
+            this.nombreClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "NombreCliente", true));
+            this.nombreClienteTextBox.Location = new System.Drawing.Point(44, 175);
+            this.nombreClienteTextBox.Multiline = true;
+            this.nombreClienteTextBox.Name = "nombreClienteTextBox";
+            this.nombreClienteTextBox.Size = new System.Drawing.Size(234, 53);
+            this.nombreClienteTextBox.TabIndex = 7;
             // 
             // clienteDataGridView
             // 
@@ -112,74 +209,59 @@
             this.clienteDataGridView.TabIndex = 2;
             this.clienteDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.clienteDataGridView_CellClick);
             // 
-            // celularClienteLabel
+            // dataGridViewTextBoxColumn1
             // 
-            celularClienteLabel.AutoSize = true;
-            celularClienteLabel.Location = new System.Drawing.Point(26, 349);
-            celularClienteLabel.Name = "celularClienteLabel";
-            celularClienteLabel.Size = new System.Drawing.Size(132, 20);
-            celularClienteLabel.TabIndex = 0;
-            celularClienteLabel.Text = "Celular Cliente:";
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "IdCliente";
+            this.dataGridViewTextBoxColumn1.HeaderText = "IdCliente";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 125;
             // 
-            // celularClienteTextBox
+            // dataGridViewTextBoxColumn2
             // 
-            this.celularClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "CelularCliente", true));
-            this.celularClienteTextBox.Location = new System.Drawing.Point(178, 342);
-            this.celularClienteTextBox.Name = "celularClienteTextBox";
-            this.celularClienteTextBox.Size = new System.Drawing.Size(100, 27);
-            this.celularClienteTextBox.TabIndex = 1;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "NombreCliente";
+            this.dataGridViewTextBoxColumn2.HeaderText = "NombreCliente";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 125;
             // 
-            // ciClienteLabel
+            // dataGridViewTextBoxColumn3
             // 
-            ciClienteLabel.AutoSize = true;
-            ciClienteLabel.Location = new System.Drawing.Point(26, 275);
-            ciClienteLabel.Name = "ciClienteLabel";
-            ciClienteLabel.Size = new System.Drawing.Size(90, 20);
-            ciClienteLabel.TabIndex = 2;
-            ciClienteLabel.Text = "Ci Cliente:";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "CiCliente";
+            this.dataGridViewTextBoxColumn3.HeaderText = "CiCliente";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 125;
             // 
-            // ciClienteTextBox
+            // dataGridViewTextBoxColumn4
             // 
-            this.ciClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "CiCliente", true));
-            this.ciClienteTextBox.Location = new System.Drawing.Point(178, 268);
-            this.ciClienteTextBox.Name = "ciClienteTextBox";
-            this.ciClienteTextBox.Size = new System.Drawing.Size(100, 27);
-            this.ciClienteTextBox.TabIndex = 3;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "CelularCliente";
+            this.dataGridViewTextBoxColumn4.HeaderText = "CelularCliente";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 125;
             // 
-            // idClienteLabel
+            // BtnImageEditar
             // 
-            idClienteLabel.AutoSize = true;
-            idClienteLabel.Location = new System.Drawing.Point(26, 64);
-            idClienteLabel.Name = "idClienteLabel";
-            idClienteLabel.Size = new System.Drawing.Size(90, 20);
-            idClienteLabel.TabIndex = 4;
-            idClienteLabel.Text = "Id Cliente:";
+            this.BtnImageEditar.HeaderText = "";
+            this.BtnImageEditar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEditar.Image")));
+            this.BtnImageEditar.MinimumWidth = 6;
+            this.BtnImageEditar.Name = "BtnImageEditar";
+            this.BtnImageEditar.ReadOnly = true;
+            this.BtnImageEditar.Width = 125;
             // 
-            // idClienteTextBox
+            // BtnImageEliminar
             // 
-            this.idClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "IdCliente", true));
-            this.idClienteTextBox.Location = new System.Drawing.Point(178, 64);
-            this.idClienteTextBox.Name = "idClienteTextBox";
-            this.idClienteTextBox.Size = new System.Drawing.Size(100, 27);
-            this.idClienteTextBox.TabIndex = 5;
-            // 
-            // nombreClienteLabel
-            // 
-            nombreClienteLabel.AutoSize = true;
-            nombreClienteLabel.Location = new System.Drawing.Point(21, 128);
-            nombreClienteLabel.Name = "nombreClienteLabel";
-            nombreClienteLabel.Size = new System.Drawing.Size(137, 20);
-            nombreClienteLabel.TabIndex = 6;
-            nombreClienteLabel.Text = "Nombre Cliente:";
-            // 
-            // nombreClienteTextBox
-            // 
-            this.nombreClienteTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.clienteBindingSource, "NombreCliente", true));
-            this.nombreClienteTextBox.Location = new System.Drawing.Point(44, 175);
-            this.nombreClienteTextBox.Multiline = true;
-            this.nombreClienteTextBox.Name = "nombreClienteTextBox";
-            this.nombreClienteTextBox.Size = new System.Drawing.Size(234, 53);
-            this.nombreClienteTextBox.TabIndex = 7;
+            this.BtnImageEliminar.HeaderText = "";
+            this.BtnImageEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEliminar.Image")));
+            this.BtnImageEliminar.MinimumWidth = 6;
+            this.BtnImageEliminar.Name = "BtnImageEliminar";
+            this.BtnImageEliminar.ReadOnly = true;
+            this.BtnImageEliminar.Width = 125;
             // 
             // btnNuevo
             // 
@@ -230,88 +312,6 @@
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCancelar.Location = new System.Drawing.Point(164, 424);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(123, 46);
-            this.btnCancelar.TabIndex = 13;
-            this.btnCancelar.Text = "CANCELAR";
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnGuardar.Location = new System.Drawing.Point(38, 424);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(120, 46);
-            this.btnGuardar.TabIndex = 12;
-            this.btnGuardar.Text = "GUARDAR";
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
-            // 
-            // BtnImageEditar
-            // 
-            this.BtnImageEditar.HeaderText = "";
-            this.BtnImageEditar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEditar.Image")));
-            this.BtnImageEditar.MinimumWidth = 6;
-            this.BtnImageEditar.Name = "BtnImageEditar";
-            this.BtnImageEditar.ReadOnly = true;
-            this.BtnImageEditar.Width = 125;
-            // 
-            // BtnImageEliminar
-            // 
-            this.BtnImageEliminar.HeaderText = "";
-            this.BtnImageEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnImageEliminar.Image")));
-            this.BtnImageEliminar.MinimumWidth = 6;
-            this.BtnImageEliminar.Name = "BtnImageEliminar";
-            this.BtnImageEliminar.ReadOnly = true;
-            this.BtnImageEliminar.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "IdCliente";
-            this.dataGridViewTextBoxColumn1.HeaderText = "IdCliente";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "NombreCliente";
-            this.dataGridViewTextBoxColumn2.HeaderText = "NombreCliente";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "CiCliente";
-            this.dataGridViewTextBoxColumn3.HeaderText = "CiCliente";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "CelularCliente";
-            this.dataGridViewTextBoxColumn4.HeaderText = "CelularCliente";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            this.dataGridViewTextBoxColumn4.Width = 125;
-            // 
-            // clienteBindingSource
-            // 
-            this.clienteBindingSource.DataSource = typeof(NiceMeal.Models.Cliente);
-            // 
             // FrmGestionarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -325,12 +325,12 @@
             this.Controls.Add(this.clienteDataGridView);
             this.Controls.Add(this.groupBoxCliente);
             this.Name = "FrmGestionarCliente";
-            this.Text = "FrmGestionarCliente";
+            this.Text = "FrmRegistrarCliente";
             this.Load += new System.EventHandler(this.FrmGestionarCliente_Load);
             this.groupBoxCliente.ResumeLayout(false);
             this.groupBoxCliente.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.clienteDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clienteDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
