@@ -16,5 +16,10 @@ namespace NiceMeal.Vistas
         {
             InitializeComponent();
         }
+
+        private void FrmListarMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

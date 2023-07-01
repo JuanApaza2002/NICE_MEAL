@@ -344,7 +344,7 @@
             // 
             // checkBox11
             // 
-            this.checkBox11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(950, 246);
             this.checkBox11.Name = "checkBox11";
@@ -354,7 +354,7 @@
             // 
             // lbl_lomito
             // 
-            this.lbl_lomito.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_lomito.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_lomito.AutoSize = true;
             this.lbl_lomito.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_lomito.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -366,7 +366,7 @@
             // 
             // checkBox12
             // 
-            this.checkBox12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox12.AutoSize = true;
             this.checkBox12.Location = new System.Drawing.Point(950, 207);
             this.checkBox12.Name = "checkBox12";
@@ -376,7 +376,7 @@
             // 
             // lbl_silpancho
             // 
-            this.lbl_silpancho.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_silpancho.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_silpancho.AutoSize = true;
             this.lbl_silpancho.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_silpancho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -388,7 +388,7 @@
             // 
             // checkBox13
             // 
-            this.checkBox13.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox13.AutoSize = true;
             this.checkBox13.Location = new System.Drawing.Point(950, 172);
             this.checkBox13.Name = "checkBox13";
@@ -398,7 +398,7 @@
             // 
             // lbl_lomo
             // 
-            this.lbl_lomo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_lomo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_lomo.AutoSize = true;
             this.lbl_lomo.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_lomo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -410,7 +410,7 @@
             // 
             // checkBox14
             // 
-            this.checkBox14.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox14.AutoSize = true;
             this.checkBox14.Location = new System.Drawing.Point(950, 128);
             this.checkBox14.Name = "checkBox14";
@@ -420,7 +420,7 @@
             // 
             // lbl_salchipollo
             // 
-            this.lbl_salchipollo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_salchipollo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_salchipollo.AutoSize = true;
             this.lbl_salchipollo.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_salchipollo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -432,7 +432,7 @@
             // 
             // checkBox15
             // 
-            this.checkBox15.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox15.AutoSize = true;
             this.checkBox15.Location = new System.Drawing.Point(950, 92);
             this.checkBox15.Name = "checkBox15";
@@ -442,7 +442,7 @@
             // 
             // lbl_salchipapa
             // 
-            this.lbl_salchipapa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_salchipapa.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_salchipapa.AutoSize = true;
             this.lbl_salchipapa.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_salchipapa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -454,7 +454,7 @@
             // 
             // checkBox6
             // 
-            this.checkBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(670, 249);
             this.checkBox6.Name = "checkBox6";
@@ -464,7 +464,7 @@
             // 
             // lbl_papas
             // 
-            this.lbl_papas.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_papas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_papas.AutoSize = true;
             this.lbl_papas.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_papas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -476,7 +476,7 @@
             // 
             // lbl_spiedo
             // 
-            this.lbl_spiedo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_spiedo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_spiedo.AutoSize = true;
             this.lbl_spiedo.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_spiedo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -488,7 +488,7 @@
             // 
             // checkBox8
             // 
-            this.checkBox8.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(670, 175);
             this.checkBox8.Name = "checkBox8";
@@ -498,7 +498,7 @@
             // 
             // lbl_pipocas
             // 
-            this.lbl_pipocas.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_pipocas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_pipocas.AutoSize = true;
             this.lbl_pipocas.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_pipocas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -510,7 +510,7 @@
             // 
             // checkBox9
             // 
-            this.checkBox9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox9.AutoSize = true;
             this.checkBox9.Location = new System.Drawing.Point(670, 131);
             this.checkBox9.Name = "checkBox9";
@@ -520,7 +520,7 @@
             // 
             // lbl_broaster
             // 
-            this.lbl_broaster.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_broaster.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_broaster.AutoSize = true;
             this.lbl_broaster.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_broaster.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -532,7 +532,7 @@
             // 
             // checkBox10
             // 
-            this.checkBox10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox10.AutoSize = true;
             this.checkBox10.Location = new System.Drawing.Point(670, 95);
             this.checkBox10.Name = "checkBox10";
@@ -542,7 +542,7 @@
             // 
             // lbl_alitas
             // 
-            this.lbl_alitas.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_alitas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_alitas.AutoSize = true;
             this.lbl_alitas.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_alitas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -554,7 +554,7 @@
             // 
             // checkBox5
             // 
-            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(409, 252);
             this.checkBox5.Name = "checkBox5";
@@ -564,7 +564,7 @@
             // 
             // lbl_milanesa
             // 
-            this.lbl_milanesa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_milanesa.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_milanesa.AutoSize = true;
             this.lbl_milanesa.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_milanesa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -576,7 +576,7 @@
             // 
             // checkBox4
             // 
-            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(409, 213);
             this.checkBox4.Name = "checkBox4";
@@ -586,7 +586,7 @@
             // 
             // lbl_tranca
             // 
-            this.lbl_tranca.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_tranca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_tranca.AutoSize = true;
             this.lbl_tranca.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tranca.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -598,7 +598,7 @@
             // 
             // checkBox3
             // 
-            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(409, 178);
             this.checkBox3.Name = "checkBox3";
@@ -608,7 +608,7 @@
             // 
             // lbl_triple
             // 
-            this.lbl_triple.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_triple.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_triple.AutoSize = true;
             this.lbl_triple.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_triple.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -620,7 +620,7 @@
             // 
             // checkBox2
             // 
-            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(409, 134);
             this.checkBox2.Name = "checkBox2";
@@ -630,7 +630,7 @@
             // 
             // lbl_doble
             // 
-            this.lbl_doble.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_doble.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_doble.AutoSize = true;
             this.lbl_doble.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_doble.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -642,7 +642,7 @@
             // 
             // checkBox1
             // 
-            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(409, 98);
             this.checkBox1.Name = "checkBox1";
@@ -652,7 +652,7 @@
             // 
             // lbl_simple
             // 
-            this.lbl_simple.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbl_simple.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_simple.AutoSize = true;
             this.lbl_simple.Font = new System.Drawing.Font("Britannic Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_simple.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -667,16 +667,16 @@
             this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel4.Location = new System.Drawing.Point(200, 511);
+            this.panel4.Location = new System.Drawing.Point(200, 395);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(788, 69);
+            this.panel4.Size = new System.Drawing.Size(788, 185);
             this.panel4.TabIndex = 58;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(213, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(213, 41);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(163, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -692,7 +692,7 @@
             this.btnBebidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBebidas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBebidas.Image = ((System.Drawing.Image)(resources.GetObject("btnBebidas.Image")));
-            this.btnBebidas.Location = new System.Drawing.Point(-4, 260);
+            this.btnBebidas.Location = new System.Drawing.Point(32, 260);
             this.btnBebidas.Margin = new System.Windows.Forms.Padding(4);
             this.btnBebidas.Name = "btnBebidas";
             this.btnBebidas.Size = new System.Drawing.Size(200, 94);
@@ -704,14 +704,15 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.btnBebidas);
             this.panel1.Controls.Add(this.btnComidas);
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 580);
+            this.panel1.Size = new System.Drawing.Size(272, 580);
             this.panel1.TabIndex = 56;
             // 
             // btnComidas
@@ -723,7 +724,7 @@
             this.btnComidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComidas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnComidas.Image = ((System.Drawing.Image)(resources.GetObject("btnComidas.Image")));
-            this.btnComidas.Location = new System.Drawing.Point(0, 95);
+            this.btnComidas.Location = new System.Drawing.Point(36, 95);
             this.btnComidas.Margin = new System.Windows.Forms.Padding(4);
             this.btnComidas.Name = "btnComidas";
             this.btnComidas.Size = new System.Drawing.Size(196, 94);
@@ -775,14 +776,14 @@
             this.panel3.Controls.Add(this.lbl_nice);
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(988, 86);
+            this.panel3.Size = new System.Drawing.Size(988, 169);
             this.panel3.TabIndex = 57;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(496, 9);
+            this.pictureBox3.Location = new System.Drawing.Point(497, 25);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(173, 74);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -793,7 +794,7 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(775, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(775, 44);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(176, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -862,6 +863,7 @@
             this.Controls.Add(this.panel3);
             this.Name = "FrmListarMenu";
             this.Text = "FrmListarMenu";
+            this.Load += new System.EventHandler(this.FrmListarMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
